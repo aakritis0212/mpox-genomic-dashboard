@@ -1,3 +1,4 @@
-import genomic.py
+import genomic
+
 
 

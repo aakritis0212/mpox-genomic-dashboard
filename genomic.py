@@ -82,7 +82,7 @@ if not filtered_df.empty:
         zoom=1,
         height=450
     )
-    fig_map.update_layout(mapbox_style="open-street-map", margin={"r":0,"t":0,"l":0,"b":0})
+    fig_map.update_layout(margin={"r":0,"t":0,"l":0,"b":0}))
     st.plotly_chart(fig_map, use_container_width=True)
 else:
     st.warning("No data available for the selected filter.")

@@ -71,7 +71,7 @@ with chart_col2:
 # Geographic Map Visualization
 st.subheader("🌍 Global Geographic Distribution")
 if not filtered_df.empty:
-    fig_map = px.scatter_mapbox(
+    fig_map = px.scatter_map(
         filtered_df,
         lat="Latitude",
         lon="Longitude",

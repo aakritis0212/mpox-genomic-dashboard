@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+import genomic
 # 1. Page Configuration
 st.set_page_config(page_title="Mpox Epi Dashboard", layout="wide")
 st.title("🦠 Mpox Genomic Epidemiology Dashboard")
